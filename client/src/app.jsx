@@ -67,4 +67,7 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App/>, document.getElementsByClassName('app')[0]);
+ReactDOM.render(<App/>, document.getElementById('app'));
+
+// ReactDOM.render(<App/>, document.getElementsByClassName('app')[0]);
+// if you want to use getElementsByClassName: getElementsByClassName returns an array of elements. use [0] to select the first one.
